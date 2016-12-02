@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		281BD8221DEFCD61009EF0AB /* Typecasing类型转换.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Typecasing类型转换.playground"; sourceTree = "<group>"; };
+		281BD8231DF11708009EF0AB /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; };
 		28E1ADDD1DEEA66A00A4D534 /* JJSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1ADE01DEEA66A00A4D534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E1ADE21DEEA66A00A4D534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				281BD8221DEFCD61009EF0AB /* Typecasing类型转换.playground */,
+				281BD8231DF11708009EF0AB /* Enum.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
