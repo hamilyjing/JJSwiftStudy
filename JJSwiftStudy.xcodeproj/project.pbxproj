@@ -34,10 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		281BD8221DEFCD61009EF0AB /* Typecasing类型转换.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Typecasing类型转换.playground"; sourceTree = "<group>"; };
-		281BD8231DF11708009EF0AB /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; };
-		2852FB921DF650D7008E9EE9 /* 实现写时复制.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "实现写时复制.playground"; sourceTree = "<group>"; };
-		287B96861DF6884C002B48C1 /* SinglePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SinglePattern.playground; sourceTree = "<group>"; };
+		28CCDA531DF7EECE00FC9C77 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
+		28CCDA541DF7EECE00FC9C77 /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; };
+		28CCDA551DF7EECE00FC9C77 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; };
+		28CCDA561DF7EECF00FC9C77 /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; };
+		28CCDA571DF7EECF00FC9C77 /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; };
+		28CCDA581DF7EECF00FC9C77 /* GuidedTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GuidedTour.playground; sourceTree = "<group>"; };
+		28CCDA591DF7EECF00FC9C77 /* Overloading.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Overloading.playground; sourceTree = "<group>"; };
+		28CCDA5A1DF7EECF00FC9C77 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; };
+		28CCDA5B1DF7EECF00FC9C77 /* SinglePattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SinglePattern.playground; sourceTree = "<group>"; };
+		28CCDA5C1DF7EECF00FC9C77 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; };
+		28CCDA5D1DF7EECF00FC9C77 /* Typecasing类型转换.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Typecasing类型转换.playground"; sourceTree = "<group>"; };
+		28CCDA5E1DF7EECF00FC9C77 /* 实现写时复制.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "实现写时复制.playground"; sourceTree = "<group>"; };
+		28CCDA5F1DF7F02200FC9C77 /* 元组.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "元组.playground"; sourceTree = "<group>"; };
 		28E1ADDD1DEEA66A00A4D534 /* JJSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1ADE01DEEA66A00A4D534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E1ADE21DEEA66A00A4D534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,13 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		281BD8211DEFCD61009EF0AB /* Playground */ = {
+		28CCDA521DF7EECE00FC9C77 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				281BD8221DEFCD61009EF0AB /* Typecasing类型转换.playground */,
-				281BD8231DF11708009EF0AB /* Enum.playground */,
-				2852FB921DF650D7008E9EE9 /* 实现写时复制.playground */,
-				287B96861DF6884C002B48C1 /* SinglePattern.playground */,
+				28CCDA531DF7EECE00FC9C77 /* Array.playground */,
+				28CCDA541DF7EECE00FC9C77 /* Dictionary.playground */,
+				28CCDA551DF7EECE00FC9C77 /* Enum.playground */,
+				28CCDA561DF7EECF00FC9C77 /* ErrorHandling.playground */,
+				28CCDA571DF7EECF00FC9C77 /* Function.playground */,
+				28CCDA581DF7EECF00FC9C77 /* GuidedTour.playground */,
+				28CCDA591DF7EECF00FC9C77 /* Overloading.playground */,
+				28CCDA5A1DF7EECF00FC9C77 /* Protocol.playground */,
+				28CCDA5B1DF7EECF00FC9C77 /* SinglePattern.playground */,
+				28CCDA5C1DF7EECF00FC9C77 /* String.playground */,
+				28CCDA5D1DF7EECF00FC9C77 /* Typecasing类型转换.playground */,
+				28CCDA5E1DF7EECF00FC9C77 /* 实现写时复制.playground */,
+				28CCDA5F1DF7F02200FC9C77 /* 元组.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -92,7 +110,7 @@
 		28E1ADD41DEEA66A00A4D534 = {
 			isa = PBXGroup;
 			children = (
-				281BD8211DEFCD61009EF0AB /* Playground */,
+				28CCDA521DF7EECE00FC9C77 /* Playground */,
 				28E1ADDF1DEEA66A00A4D534 /* JJSwiftStudy */,
 				28E1ADF41DEEA66A00A4D534 /* JJSwiftStudyTests */,
 				28E1ADFF1DEEA66A00A4D534 /* JJSwiftStudyUITests */,
