@@ -6,7 +6,7 @@ func +(left: [Int], right: [Int]) -> [Int]
     var sum = [Int]()
     assert(left.count == right.count, "Array of same length only")
     
-    for (key, value) in enumerate(left)
+    for (key, _) in left.enumerated()
     {
         sum.append(left[key] + right[key])
     }
@@ -59,7 +59,7 @@ func ⊕(left: [Int], right: [Int]) -> [Int] //只有中置操作符不用在fun
 {
     assert(left.count == right.count, "should same count")
     var sum = [Int](repeating: 0, count: left.count);
-    for (key, v) in enumerate(left)
+    for (key, _) in left.enumerated()
     {
         sum[key] = left[key] + right[key];
     }
