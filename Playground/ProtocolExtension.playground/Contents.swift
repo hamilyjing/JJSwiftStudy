@@ -45,6 +45,10 @@ extension MyProtocol {
     func method1() {
         print("method1")
     }
+    
+    func method2() {
+        print("method2")
+    }
 }
 
 extension MyStruct1 {
@@ -56,6 +60,7 @@ extension MyStruct1 {
 let b = MyStruct1()
 b.method()
 b.method1()
+b.method2()
 
 print("")
 
