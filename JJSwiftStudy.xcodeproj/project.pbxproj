@@ -35,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		281A086C1DFEAB940091ACA1 /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; };
+		2882D14E1E7FBE1900A45270 /* Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Self.playground; sourceTree = "<group>"; };
+		2882D14F1E80BED100A45270 /* AnyClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyClass.playground; sourceTree = "<group>"; };
 		289C51DE1E77BB9A007AE6B0 /* Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Class.playground; sourceTree = "<group>"; };
 		28CCDA531DF7EECE00FC9C77 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
 		28CCDA541DF7EECE00FC9C77 /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 				28CCDA5D1DF7EECF00FC9C77 /* Typecasing类型转换.playground */,
 				28CCDA5F1DF7F02200FC9C77 /* 元组.playground */,
 				28CCDA5E1DF7EECF00FC9C77 /* 实现写时复制.playground */,
+				2882D14E1E7FBE1900A45270 /* Self.playground */,
+				2882D14F1E80BED100A45270 /* AnyClass.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
